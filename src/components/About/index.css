@@ -1,0 +1,44 @@
+/* Write your CSS here */
+.about-app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.about-bg-dark {
+  background-color: #000;
+}
+.about-bg-light {
+  background-color: #fff;
+}
+.about-responsive-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.about-img {
+  height: 120px;
+}
+.about-heading {
+  font-size: 30px;
+  font-family: Roboto;
+}
+.about-text-light {
+  color: #fff;
+}
+.about-text-dark {
+  color: #1e293b;
+}
+
+@media screen and (min-width: 768px) {
+  .about-heading {
+    font-size: 48px;
+  }
+}

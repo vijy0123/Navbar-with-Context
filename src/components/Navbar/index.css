@@ -1,0 +1,68 @@
+/* Write your CSS here */
+.navbar {
+  display: flex;
+  justify-content: space-around;
+}
+.navbar-bg-dark {
+  background-color: #333333;
+}
+.navbar-bg-light {
+  background-color: #ffffff;
+  border-bottom: 1px solid #dcdcdc;
+  box-shadow: 0px 0px 0px 1px #dcdcdc;
+}
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
+  max-width: 1110px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.website-logo {
+  height: 48px;
+  margin-left: 10px;
+}
+.nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+.nav-menu-item {
+  width: 100%;
+  padding: 12px 15px 12px 15px;
+}
+.list-text-dark-theme {
+  color: #ffffff;
+}
+.list-text-light-theme {
+  color: #171f46;
+}
+.nav-link {
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 700;
+  text-decoration: none;
+}
+.theme-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.theme-img {
+  height: 34px;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-container {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
